@@ -1,1 +1,13 @@
-@import "bootstrap/scss/bootstrap";
+/*!
+  Welcome to the core import file for Spark
+  Author: Tim Green
+*/
+
+
+
+/* Google Import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&display=swap");
+
+/* Variables */
+@import "./variables/variables";
+@import "./variables/theme-variables";
