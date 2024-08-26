@@ -7,7 +7,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --no-content-hash  --no-cache"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
@@ -20,6 +20,7 @@
     "js": "/src/assets/js"
   },
   "dependencies": {
+    "parcel-namer-hashless": "^1.0.6",
     "parcel-namer-sorter": "^0.1.8"
   }
 }
