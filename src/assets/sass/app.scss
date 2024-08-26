@@ -11,3 +11,30 @@
 /* Variables */
 @import "./variables/variables";
 @import "./variables/theme-variables";
+
+/* Bootstrap Import */
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+/* Styles for Scrollbar */
+// @import "../libs/simplebar/dist/simplebar.css";
+
+/* Tabler Icons */
+// @import "../css/icons/tabler-icons/tabler-icons.css";
+
+/* Layout Styles */
+@import "./layouts/sidebar";
+@import "./layouts/header";
+@import "./layouts/layouts";
+
+/* Component Styles */
+@import "./component/reset";
+@import "./component/card";
+
+/* Utilities */
+@import "./utilities/icon-size";
+@import "./utilities/simplebar";
+
+/* Pages Styles */
+@import "./pages/dashboard";
+
