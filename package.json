@@ -12,5 +12,14 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "latest"
+  },
+  "alias": {
+    "sass": "/src/assets/sass",
+    "images": "/src/assets/images",
+    "./images/*": "/src/assets/images/*",
+    "js": "/src/assets/js"
+  },
+  "dependencies": {
+    "parcel-namer-sorter": "^0.1.8"
   }
 }
