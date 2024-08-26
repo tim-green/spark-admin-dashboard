@@ -66,6 +66,15 @@
   height: 8px;
 }
 
+.sidebartoggler{
+  float: inline-end;
+  transition: ease-out 1s color;
+  &:hover{
+    color: $purple;
+    transition: ease-in-out 1s color;
+  }
+}
+
 @include media-breakpoint-down(lg) {
   .app-header {
     .navbar {
