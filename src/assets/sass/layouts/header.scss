@@ -51,9 +51,8 @@
 .navbar-nav .dropdown-menu {
   position: absolute;
   min-width: 200px;
-
   .dropdown-item {
-    border-radius: 8px;
+    border-radius: 0;
   }
 
 }
