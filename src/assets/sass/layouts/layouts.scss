@@ -120,6 +120,7 @@
   .left-sidebar {
     .scroll-sidebar, .brand-logo {
       padding: $sidebar-spacing-x;
+      padding-top: 16px;
     }
   }
 }
@@ -127,4 +128,30 @@
 // Alerts
 .alert-dark{
   color: $white;
+}
+
+// Rounded Corners
+.rounded-circle{
+  box-shadow: 0 0.5rem 1rem rgba(210, 210, 210, 0.15);
+}
+
+// Mark (Highlight)
+mark, .mark{
+  background: $purple;
+  color: $white;
+  border-radius: 4px;
+}
+
+// Deleted, strikethrough
+del{
+  color: $red;
+}
+
+s{
+  text-decoration: line-through $red 2px;
+}
+
+// Select
+.form-select{
+  border-color: $purple;
 }
