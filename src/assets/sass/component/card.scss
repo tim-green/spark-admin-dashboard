@@ -27,3 +27,21 @@
     width: 45px !important;
     height: 45px !important;
   }
+
+// Blog Card
+.blog-card .position-relative{
+    .badge{
+        background: $purple !important;
+        color: $white !important;
+        border: 1px solid $purple !important;
+    }
+}
+
+.blog-card{
+    .card-body{
+        .badge{
+            background: $purple !important;
+            color:$white !important;
+        }
+    }
+}
