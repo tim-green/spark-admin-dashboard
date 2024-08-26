@@ -1,0 +1,29 @@
+/*!
+  Card Styles
+  Author: Tim Green
+*/
+
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+}
+
+.card {
+    margin-bottom: 30px;
+
+    .card-header{
+        background: $purple;
+        color: $white;
+        font-weight: $font-weight-bold;
+    }
+}
+
+/* Card Overrides*/
+.rounded-circle-shape {
+    width: 45px !important;
+    height: 45px !important;
+  }
